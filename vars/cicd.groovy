@@ -15,5 +15,15 @@ def Deploy(jobname,ip,context)
 
 
 
+def Git(repo)
+{
+  git "https://github.com/intelliqittrainings/${repo}"
+}
+
+
+
+
+
+
 
 
