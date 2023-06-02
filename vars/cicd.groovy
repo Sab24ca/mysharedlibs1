@@ -21,6 +21,14 @@ def Git(repo)
 }
 
 
+def runSelenium(jobname)
+{
+  sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar"
+}
+ 
+
+
+
 
 
 
